@@ -1,0 +1,46 @@
+.rank {
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  background-image: url("https://preview.colorlib.com/theme/educature/img/header-bg.png");
+  color: white;
+  font-family: Montserrat, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  .text {
+    h1 {
+      font-size: 40px;
+      line-height: 45px;
+    }
+    p {
+      margin: 20px 0;
+      line-height: 25px;
+    }
+    .search {
+      background-color: white;
+      width: 480px;
+      height: 45px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      input {
+        width: 400px;
+        outline: none;
+        border: none;
+        height: 40px;
+        padding: 10px;
+      }
+      button {
+        cursor: pointer;
+        color: white;
+        border: none;
+        margin-right: 10px;
+        padding: 10px 20px;
+        background: linear-gradient(90deg, #39cfca 0%, #3279bb 100%);
+      }
+    }
+  }
+}
